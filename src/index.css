@@ -257,3 +257,54 @@ ul {
 PROJECT CSS 
 =============== 
 */
+body {
+  background: var(--primary-500);
+}
+
+/* 
+============= 
+NAVBAR 
+=============== 
+*/
+nav {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-center {
+  width: var(--fluid-width);
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container h3 {
+  color: var(--white);
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.logo-container svg {
+  color: var(--white);
+  font-size: 3rem;
+}
+.toggle-btn {
+  width: 2rem;
+  height: 2rem;
+  background: var(--white);
+  color: var(--primary-600);
+  border-radius: var(--borderRadius);
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.toggle-btn:hover {
+  transform: scale(1.05);
+}

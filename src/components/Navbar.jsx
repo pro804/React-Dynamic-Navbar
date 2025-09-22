@@ -1,13 +1,17 @@
 import { FaBars } from "react-icons/fa";
 import useGlobalContext from "../hooks/useGlobalContext";
+import { MdOutlineDynamicForm } from "react-icons/md";
 
 const Navbar = () => {
-  const { openSidbar } = useGlobalContext();
+  const { openSidebar } = useGlobalContext();
   return (
     <nav>
       <div className="nav-center">
-        <h3 className="logo">Dynamic NavBar</h3>
-        <button className="toggle-btn" onClick={openSidbar}>
+        <div className="logo-container">
+          <MdOutlineDynamicForm />
+          <h3> Dynamic Navbar</h3>
+        </div>
+        <button className="toggle-btn" onClick={openSidebar}>
           <FaBars />
         </button>
       </div>
