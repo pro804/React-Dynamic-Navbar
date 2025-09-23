@@ -419,3 +419,36 @@ HERO
     display: none;
   }
 }
+
+/* 
+============= 
+  NAV LINKS
+=============== 
+*/
+
+.nav-links {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+  }
+  .nav-center {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    border: 2px solid rgb(0, 119, 255);
+  }
+  .nav-link {
+    padding: 0 1rem;
+    color: var(--white);
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    letter-spacing: var(--letterSpacing);
+    cursor: pointer;
+    border: 2px solid rgb(0, 255, 157);
+  }
+}
