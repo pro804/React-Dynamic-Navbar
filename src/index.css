@@ -433,12 +433,12 @@ HERO
   .nav-links {
     display: flex;
     justify-content: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   .nav-center {
     display: grid;
     grid-template-columns: auto 1fr;
-    border: 2px solid rgb(0, 119, 255);
+    /* border: 2px solid rgb(0, 119, 255); */
   }
   .nav-link {
     padding: 0 1rem;
@@ -449,6 +449,6 @@ HERO
     text-transform: capitalize;
     letter-spacing: var(--letterSpacing);
     cursor: pointer;
-    border: 2px solid rgb(0, 255, 157);
+    /* border: 2px solid rgb(0, 255, 157); */
   }
 }
